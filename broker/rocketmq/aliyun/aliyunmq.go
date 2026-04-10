@@ -14,9 +14,9 @@ import (
 	aliyun "github.com/aliyunmq/mq-http-go-sdk"
 	"github.com/gogap/errors"
 
-	"github.com/tx7do/kratos-transport/broker"
-	rocketmqOption "github.com/tx7do/kratos-transport/broker/rocketmq/option"
-	"github.com/tx7do/kratos-transport/tracing"
+	"github.com/52dev/kratos-transport/broker"
+	rocketmqOption "github.com/52dev/kratos-transport/broker/rocketmq/option"
+	"github.com/52dev/kratos-transport/tracing"
 )
 
 const (

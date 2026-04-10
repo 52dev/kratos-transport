@@ -12,8 +12,8 @@ import (
 
 	natsGo "github.com/nats-io/nats.go"
 
-	"github.com/tx7do/kratos-transport/broker"
-	"github.com/tx7do/kratos-transport/tracing"
+	"github.com/52dev/kratos-transport/broker"
+	"github.com/52dev/kratos-transport/tracing"
 
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"

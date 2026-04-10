@@ -14,7 +14,7 @@ import (
 
 	"github.com/philippseith/signalr"
 
-	"github.com/tx7do/kratos-transport/transport"
+	"github.com/52dev/kratos-transport/transport"
 )
 
 var (

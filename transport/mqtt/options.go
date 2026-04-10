@@ -3,8 +3,8 @@ package mqtt
 import (
 	"crypto/tls"
 
-	"github.com/tx7do/kratos-transport/broker"
-	"github.com/tx7do/kratos-transport/broker/mqtt"
+	"github.com/52dev/kratos-transport/broker"
+	"github.com/52dev/kratos-transport/broker/mqtt"
 )
 
 type ServerOption func(o *Server)

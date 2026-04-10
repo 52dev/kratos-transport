@@ -4,7 +4,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/tx7do/go-utils/id"
+	"github.com/52dev/go-utils/id"
 )
 
 var channelBufSize = 256

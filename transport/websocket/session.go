@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/52dev/go-utils/id"
 	ws "github.com/gorilla/websocket"
-	"github.com/tx7do/go-utils/id"
 )
 
 var channelBufSize = 256

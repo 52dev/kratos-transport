@@ -28,7 +28,7 @@ Kratos 应用，统一由 app 管理启动、停止与优雅退出，避免手�
 ## 安装
 
 ```bash
-go get github.com/tx7do/kratos-transport/transport/cron
+go get github.com/52dev/kratos-transport/transport/cron
 ```
 
 ## 核心结构
@@ -59,7 +59,7 @@ import (
     "log"
 
     "github.com/go-kratos/kratos/v2"
-    "github.com/tx7do/kratos-transport/transport/cron"
+    "github.com/52dev/kratos-transport/transport/cron"
 )
 
 func main() {

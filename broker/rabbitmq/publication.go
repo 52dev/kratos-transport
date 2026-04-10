@@ -1,8 +1,8 @@
 package rabbitmq
 
 import (
+	"github.com/52dev/kratos-transport/broker"
 	amqp "github.com/rabbitmq/amqp091-go"
-	"github.com/tx7do/kratos-transport/broker"
 )
 
 type publication struct {

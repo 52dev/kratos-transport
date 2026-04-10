@@ -11,7 +11,7 @@ import (
 	_ "github.com/go-kratos/kratos/v2/encoding/json"
 	_ "github.com/go-kratos/kratos/v2/encoding/proto"
 
-	"github.com/tx7do/kratos-transport/tracing"
+	"github.com/52dev/kratos-transport/tracing"
 )
 
 var (

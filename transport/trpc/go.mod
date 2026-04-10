@@ -1,20 +1,20 @@
-module github.com/tx7do/kratos-transport/transport/trpc
+module github.com/52dev/kratos-transport/transport/trpc
 
 go 1.24.0
 
 toolchain go1.24.3
 
 replace (
-	github.com/tx7do/kratos-transport/broker => ../../broker
-	github.com/tx7do/kratos-transport/testing => ../../testing
-	github.com/tx7do/kratos-transport/tracing => ../../tracing
-	github.com/tx7do/kratos-transport/transport => ../
-	github.com/tx7do/kratos-transport/transport/keepalive => ../keepalive
+	github.com/52dev/kratos-transport/broker => ../../broker
+	github.com/52dev/kratos-transport/testing => ../../testing
+	github.com/52dev/kratos-transport/tracing => ../../tracing
+	github.com/52dev/kratos-transport/transport => ../
+	github.com/52dev/kratos-transport/transport/keepalive => ../keepalive
 )
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
-	github.com/tx7do/kratos-transport/transport v1.3.3
+	github.com/52dev/kratos-transport/transport v1.3.3
 	trpc.group/trpc-go/trpc-go v1.0.3
 )
 
@@ -42,8 +42,8 @@ require (
 	github.com/panjf2000/ants/v2 v2.11.4 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/spf13/cast v1.10.0 // indirect
-	github.com/tx7do/kratos-transport/broker v1.3.2 // indirect
-	github.com/tx7do/kratos-transport/tracing v1.1.1 // indirect
+	github.com/52dev/kratos-transport/broker v1.3.2 // indirect
+	github.com/52dev/kratos-transport/tracing v1.1.1 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.69.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect

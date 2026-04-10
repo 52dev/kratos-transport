@@ -3,8 +3,8 @@ package pulsar
 import (
 	"sync"
 
+	"github.com/52dev/kratos-transport/broker"
 	"github.com/apache/pulsar-client-go/pulsar"
-	"github.com/tx7do/kratos-transport/broker"
 )
 
 type subscriber struct {

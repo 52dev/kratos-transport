@@ -1,15 +1,15 @@
-module github.com/tx7do/kratos-transport/transport/machinery
+module github.com/52dev/kratos-transport/transport/machinery
 
 go 1.24.0
 
 toolchain go1.24.3
 
 replace (
-	github.com/tx7do/kratos-transport/broker => ../../broker
-	github.com/tx7do/kratos-transport/testing => ../../testing
-	github.com/tx7do/kratos-transport/tracing => ../../tracing
-	github.com/tx7do/kratos-transport/transport => ../
-	github.com/tx7do/kratos-transport/transport/keepalive => ../keepalive
+	github.com/52dev/kratos-transport/broker => ../../broker
+	github.com/52dev/kratos-transport/testing => ../../testing
+	github.com/52dev/kratos-transport/tracing => ../../tracing
+	github.com/52dev/kratos-transport/transport => ../
+	github.com/52dev/kratos-transport/transport/keepalive => ../keepalive
 )
 
 require (
@@ -17,8 +17,8 @@ require (
 	github.com/RichardKnop/machinery/v2 v2.0.16
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/stretchr/testify v1.11.1
-	github.com/tx7do/kratos-transport/tracing v1.1.1
-	github.com/tx7do/kratos-transport/transport/keepalive v1.3.3
+	github.com/52dev/kratos-transport/tracing v1.1.1
+	github.com/52dev/kratos-transport/transport/keepalive v1.3.3
 	go.opentelemetry.io/otel v1.39.0
 	go.opentelemetry.io/otel/trace v1.39.0
 )
@@ -78,8 +78,8 @@ require (
 	github.com/rabbitmq/amqp091-go v1.10.0 // indirect
 	github.com/redis/go-redis/v9 v9.17.3 // indirect
 	github.com/robfig/cron/v3 v3.0.1 // indirect
-	github.com/tx7do/kratos-transport/broker v1.3.2 // indirect
-	github.com/tx7do/kratos-transport/transport v1.3.3 // indirect
+	github.com/52dev/kratos-transport/broker v1.3.2 // indirect
+	github.com/52dev/kratos-transport/transport v1.3.3 // indirect
 	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
 	github.com/xdg-go/scram v1.2.0 // indirect
 	github.com/xdg-go/stringprep v1.0.4 // indirect

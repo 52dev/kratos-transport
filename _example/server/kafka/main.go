@@ -6,11 +6,11 @@ import (
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/log"
 
-	"github.com/tx7do/kratos-transport/broker"
-	"github.com/tx7do/kratos-transport/tracing"
-	"github.com/tx7do/kratos-transport/transport/kafka"
+	"github.com/52dev/kratos-transport/broker"
+	"github.com/52dev/kratos-transport/tracing"
+	"github.com/52dev/kratos-transport/transport/kafka"
 
-	api "github.com/tx7do/kratos-transport/testing/api/manual"
+	api "github.com/52dev/kratos-transport/testing/api/manual"
 )
 
 const (

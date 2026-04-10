@@ -4,8 +4,8 @@ import (
 	"crypto/tls"
 	"time"
 
-	"github.com/tx7do/kratos-transport/broker"
-	"github.com/tx7do/kratos-transport/broker/redis"
+	"github.com/52dev/kratos-transport/broker"
+	"github.com/52dev/kratos-transport/broker/redis"
 )
 
 type ServerOption func(o *Server)

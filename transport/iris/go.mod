@@ -1,21 +1,21 @@
-module github.com/tx7do/kratos-transport/transport/iris
+module github.com/52dev/kratos-transport/transport/iris
 
 go 1.25
 
 replace (
-	github.com/tx7do/kratos-transport/broker => ../../broker
-	github.com/tx7do/kratos-transport/testing => ../../testing
-	github.com/tx7do/kratos-transport/tracing => ../../tracing
-	github.com/tx7do/kratos-transport/transport => ../
-	github.com/tx7do/kratos-transport/transport/keepalive => ../keepalive
+	github.com/52dev/kratos-transport/broker => ../../broker
+	github.com/52dev/kratos-transport/testing => ../../testing
+	github.com/52dev/kratos-transport/tracing => ../../tracing
+	github.com/52dev/kratos-transport/transport => ../
+	github.com/52dev/kratos-transport/transport/keepalive => ../keepalive
 )
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/kataras/iris/v12 v12.2.11
 	github.com/stretchr/testify v1.11.1
-	github.com/tx7do/kratos-transport/testing v1.1.1
-	github.com/tx7do/kratos-transport/transport v1.3.3
+	github.com/52dev/kratos-transport/testing v1.1.1
+	github.com/52dev/kratos-transport/transport v1.3.3
 )
 
 require (
@@ -60,8 +60,8 @@ require (
 	github.com/sirupsen/logrus v1.9.4 // indirect
 	github.com/tdewolff/minify/v2 v2.24.8 // indirect
 	github.com/tdewolff/parse/v2 v2.8.5 // indirect
-	github.com/tx7do/kratos-transport/broker v1.3.2 // indirect
-	github.com/tx7do/kratos-transport/tracing v1.1.1 // indirect
+	github.com/52dev/kratos-transport/broker v1.3.2 // indirect
+	github.com/52dev/kratos-transport/tracing v1.1.1 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/vmihailenco/msgpack/v5 v5.4.1 // indirect
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect

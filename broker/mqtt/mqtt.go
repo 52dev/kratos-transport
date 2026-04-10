@@ -8,7 +8,7 @@ import (
 
 	paho "github.com/eclipse/paho.mqtt.golang"
 
-	"github.com/tx7do/kratos-transport/broker"
+	"github.com/52dev/kratos-transport/broker"
 )
 
 type mqttBroker struct {

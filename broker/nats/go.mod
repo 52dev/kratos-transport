@@ -1,18 +1,18 @@
-module github.com/tx7do/kratos-transport/broker/nats
+module github.com/52dev/kratos-transport/broker/nats
 
 go 1.24.0
 
 toolchain go1.24.3
 
-replace github.com/tx7do/kratos-transport/broker => ../
+replace github.com/52dev/kratos-transport/broker => ../
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/nats-io/nats.go v1.48.0
 	github.com/stretchr/testify v1.11.1
-	github.com/tx7do/kratos-transport/broker v1.3.2
-	github.com/tx7do/kratos-transport/testing v1.1.1
-	github.com/tx7do/kratos-transport/tracing v1.1.1
+	github.com/52dev/kratos-transport/broker v1.3.2
+	github.com/52dev/kratos-transport/testing v1.1.1
+	github.com/52dev/kratos-transport/tracing v1.1.1
 	go.opentelemetry.io/otel v1.39.0
 	go.opentelemetry.io/otel/trace v1.39.0
 	google.golang.org/protobuf v1.36.11

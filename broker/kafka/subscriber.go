@@ -12,7 +12,7 @@ import (
 	kafkaGo "github.com/segmentio/kafka-go"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/tx7do/kratos-transport/broker"
+	"github.com/52dev/kratos-transport/broker"
 )
 
 const (

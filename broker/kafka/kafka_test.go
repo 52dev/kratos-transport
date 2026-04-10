@@ -11,15 +11,15 @@ import (
 	"testing"
 	"time"
 
+	"github.com/52dev/kratos-transport/broker"
+	"github.com/52dev/kratos-transport/tracing"
 	"github.com/go-kratos/kratos/v2/log"
 	kafkaGo "github.com/segmentio/kafka-go"
 	"github.com/stretchr/testify/assert"
-	"github.com/tx7do/kratos-transport/broker"
-	"github.com/tx7do/kratos-transport/tracing"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/propagation"
 
-	api "github.com/tx7do/kratos-transport/testing/api/manual"
+	api "github.com/52dev/kratos-transport/testing/api/manual"
 )
 
 const (

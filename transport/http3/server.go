@@ -21,7 +21,7 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/quic-go/quic-go/http3"
 
-	"github.com/tx7do/kratos-transport/transport"
+	"github.com/52dev/kratos-transport/transport"
 )
 
 var (

@@ -1,26 +1,26 @@
-module github.com/tx7do/kratos-transport/transport/nats
+module github.com/52dev/kratos-transport/transport/nats
 
 go 1.24.0
 
 toolchain go1.24.3
 
 replace (
-	github.com/tx7do/kratos-transport/broker => ../../broker
-	github.com/tx7do/kratos-transport/broker/nats => ../../broker/nats
-	github.com/tx7do/kratos-transport/testing => ../../testing
-	github.com/tx7do/kratos-transport/tracing => ../../tracing
-	github.com/tx7do/kratos-transport/transport => ../
-	github.com/tx7do/kratos-transport/transport/keepalive => ../keepalive
+	github.com/52dev/kratos-transport/broker => ../../broker
+	github.com/52dev/kratos-transport/broker/nats => ../../broker/nats
+	github.com/52dev/kratos-transport/testing => ../../testing
+	github.com/52dev/kratos-transport/tracing => ../../tracing
+	github.com/52dev/kratos-transport/transport => ../
+	github.com/52dev/kratos-transport/transport/keepalive => ../keepalive
 )
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/stretchr/testify v1.11.1
-	github.com/tx7do/kratos-transport/broker v1.3.2
-	github.com/tx7do/kratos-transport/broker/nats v1.3.2
-	github.com/tx7do/kratos-transport/testing v1.1.1
-	github.com/tx7do/kratos-transport/transport v1.3.3
-	github.com/tx7do/kratos-transport/transport/keepalive v1.3.3
+	github.com/52dev/kratos-transport/broker v1.3.2
+	github.com/52dev/kratos-transport/broker/nats v1.3.2
+	github.com/52dev/kratos-transport/testing v1.1.1
+	github.com/52dev/kratos-transport/transport v1.3.3
+	github.com/52dev/kratos-transport/transport/keepalive v1.3.3
 	go.opentelemetry.io/otel v1.39.0
 	go.opentelemetry.io/otel/trace v1.39.0
 )
@@ -40,7 +40,7 @@ require (
 	github.com/nats-io/nuid v1.0.1 // indirect
 	github.com/openzipkin/zipkin-go v0.4.3 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/tx7do/kratos-transport/tracing v1.1.1 // indirect
+	github.com/52dev/kratos-transport/tracing v1.1.1 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.39.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.39.0 // indirect

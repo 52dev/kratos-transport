@@ -11,7 +11,7 @@ import (
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/log"
 
-	asynqServer "github.com/tx7do/kratos-transport/transport/asynq"
+	asynqServer "github.com/52dev/kratos-transport/transport/asynq"
 )
 
 var testServer *asynqServer.Server

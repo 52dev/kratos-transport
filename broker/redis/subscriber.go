@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/52dev/kratos-transport/broker"
 	"github.com/gomodule/redigo/redis"
-	"github.com/tx7do/kratos-transport/broker"
 )
 
 type subscriber struct {

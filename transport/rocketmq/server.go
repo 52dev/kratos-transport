@@ -10,12 +10,12 @@ import (
 
 	kratosTransport "github.com/go-kratos/kratos/v2/transport"
 
-	"github.com/tx7do/kratos-transport/broker"
-	"github.com/tx7do/kratos-transport/broker/rocketmq"
-	rocketmqOption "github.com/tx7do/kratos-transport/broker/rocketmq/option"
+	"github.com/52dev/kratos-transport/broker"
+	"github.com/52dev/kratos-transport/broker/rocketmq"
+	rocketmqOption "github.com/52dev/kratos-transport/broker/rocketmq/option"
 
-	"github.com/tx7do/kratos-transport/transport"
-	"github.com/tx7do/kratos-transport/transport/keepalive"
+	"github.com/52dev/kratos-transport/transport"
+	"github.com/52dev/kratos-transport/transport/keepalive"
 )
 
 var (

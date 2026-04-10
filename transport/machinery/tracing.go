@@ -3,8 +3,8 @@ package machinery
 import (
 	"context"
 	"encoding/json"
+	"github.com/52dev/kratos-transport/tracing"
 	"github.com/RichardKnop/machinery/v2/tasks"
-	"github.com/tx7do/kratos-transport/tracing"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 )

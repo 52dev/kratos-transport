@@ -14,12 +14,12 @@ import (
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/stretchr/testify/assert"
 
-	api "github.com/tx7do/kratos-transport/testing/api/manual"
+	api "github.com/52dev/kratos-transport/testing/api/manual"
 
-	"github.com/tx7do/kratos-transport/broker"
-	"github.com/tx7do/kratos-transport/tracing"
+	"github.com/52dev/kratos-transport/broker"
+	"github.com/52dev/kratos-transport/tracing"
 
-	"github.com/tx7do/kratos-transport/broker/rocketmq/option"
+	"github.com/52dev/kratos-transport/broker/rocketmq/option"
 )
 
 const (

@@ -16,7 +16,7 @@ import (
 	"github.com/go-kratos/kratos/v2/errors"
 	kratosTransport "github.com/go-kratos/kratos/v2/transport"
 
-	"github.com/tx7do/kratos-transport/transport"
+	"github.com/52dev/kratos-transport/transport"
 )
 
 var (

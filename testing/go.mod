@@ -1,4 +1,4 @@
-module github.com/tx7do/kratos-transport/testing
+module github.com/52dev/kratos-transport/testing
 
 go 1.24.0
 

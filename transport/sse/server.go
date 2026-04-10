@@ -14,8 +14,8 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/tx7do/kratos-transport/broker"
-	"github.com/tx7do/kratos-transport/transport"
+	"github.com/52dev/kratos-transport/broker"
+	"github.com/52dev/kratos-transport/transport"
 )
 
 type MessagePayload any

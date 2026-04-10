@@ -1,8 +1,8 @@
 package nats
 
 import (
+	"github.com/52dev/kratos-transport/broker"
 	natsGo "github.com/nats-io/nats.go"
-	"github.com/tx7do/kratos-transport/broker"
 	"time"
 )
 

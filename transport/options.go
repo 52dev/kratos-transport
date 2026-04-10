@@ -1,6 +1,6 @@
 package transport
 
-import "github.com/tx7do/kratos-transport/broker"
+import "github.com/52dev/kratos-transport/broker"
 
 type SubscribeOption struct {
 	Handler          broker.Handler

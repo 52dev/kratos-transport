@@ -1,15 +1,15 @@
-module github.com/tx7do/kratos-transport/transport/socketio
+module github.com/52dev/kratos-transport/transport/socketio
 
 go 1.24.0
 
 toolchain go1.24.3
 
 replace (
-	github.com/tx7do/kratos-transport/broker => ../../broker
-	github.com/tx7do/kratos-transport/testing => ../../testing
-	github.com/tx7do/kratos-transport/tracing => ../../tracing
-	github.com/tx7do/kratos-transport/transport => ../
-	github.com/tx7do/kratos-transport/transport/keepalive => ../keepalive
+	github.com/52dev/kratos-transport/broker => ../../broker
+	github.com/52dev/kratos-transport/testing => ../../testing
+	github.com/52dev/kratos-transport/tracing => ../../tracing
+	github.com/52dev/kratos-transport/transport => ../
+	github.com/52dev/kratos-transport/transport/keepalive => ../keepalive
 )
 
 require (
@@ -17,7 +17,7 @@ require (
 	github.com/googollee/go-socket.io v1.7.0
 	github.com/gorilla/handlers v1.5.2
 	github.com/gorilla/mux v1.8.1
-	github.com/tx7do/kratos-transport/transport v1.3.3
+	github.com/52dev/kratos-transport/transport v1.3.3
 )
 
 require (
@@ -33,8 +33,8 @@ require (
 	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.27.6 // indirect
 	github.com/openzipkin/zipkin-go v0.4.3 // indirect
-	github.com/tx7do/kratos-transport/broker v1.3.2 // indirect
-	github.com/tx7do/kratos-transport/tracing v1.1.1 // indirect
+	github.com/52dev/kratos-transport/broker v1.3.2 // indirect
+	github.com/52dev/kratos-transport/tracing v1.1.1 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel v1.39.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.39.0 // indirect

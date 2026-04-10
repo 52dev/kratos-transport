@@ -1,26 +1,26 @@
-module github.com/tx7do/kratos-transport/transport/rocketmq
+module github.com/52dev/kratos-transport/transport/rocketmq
 
 go 1.24.0
 
 toolchain go1.24.3
 
 replace (
-	github.com/tx7do/kratos-transport/broker => ../../broker
-	github.com/tx7do/kratos-transport/broker/rocketmq => ../../broker/rocketmq
-	github.com/tx7do/kratos-transport/testing => ../../testing
-	github.com/tx7do/kratos-transport/tracing => ../../tracing
-	github.com/tx7do/kratos-transport/transport => ../
-	github.com/tx7do/kratos-transport/transport/keepalive => ../keepalive
+	github.com/52dev/kratos-transport/broker => ../../broker
+	github.com/52dev/kratos-transport/broker/rocketmq => ../../broker/rocketmq
+	github.com/52dev/kratos-transport/testing => ../../testing
+	github.com/52dev/kratos-transport/tracing => ../../tracing
+	github.com/52dev/kratos-transport/transport => ../
+	github.com/52dev/kratos-transport/transport/keepalive => ../keepalive
 )
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/stretchr/testify v1.11.1
-	github.com/tx7do/kratos-transport/broker v1.3.2
-	github.com/tx7do/kratos-transport/broker/rocketmq v1.3.2
-	github.com/tx7do/kratos-transport/testing v1.1.1
-	github.com/tx7do/kratos-transport/transport v1.3.3
-	github.com/tx7do/kratos-transport/transport/keepalive v1.3.3
+	github.com/52dev/kratos-transport/broker v1.3.2
+	github.com/52dev/kratos-transport/broker/rocketmq v1.3.2
+	github.com/52dev/kratos-transport/testing v1.1.1
+	github.com/52dev/kratos-transport/transport v1.3.3
+	github.com/52dev/kratos-transport/transport/keepalive v1.3.3
 	go.opentelemetry.io/otel v1.39.0
 	go.opentelemetry.io/otel/trace v1.39.0
 )
@@ -66,7 +66,7 @@ require (
 	github.com/tidwall/gjson v1.18.0 // indirect
 	github.com/tidwall/match v1.2.0 // indirect
 	github.com/tidwall/pretty v1.2.1 // indirect
-	github.com/tx7do/kratos-transport/tracing v1.1.1 // indirect
+	github.com/52dev/kratos-transport/tracing v1.1.1 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.69.0 // indirect
 	github.com/valyala/fastrand v1.1.0 // indirect

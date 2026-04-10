@@ -10,8 +10,8 @@ import (
 	"github.com/apache/pulsar-client-go/pulsar"
 	"github.com/google/uuid"
 
-	"github.com/tx7do/kratos-transport/broker"
-	"github.com/tx7do/kratos-transport/tracing"
+	"github.com/52dev/kratos-transport/broker"
+	"github.com/52dev/kratos-transport/tracing"
 
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"

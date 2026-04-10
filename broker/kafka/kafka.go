@@ -12,8 +12,8 @@ import (
 	kafkaGo "github.com/segmentio/kafka-go"
 	"github.com/segmentio/kafka-go/sasl"
 
-	"github.com/tx7do/kratos-transport/broker"
-	"github.com/tx7do/kratos-transport/tracing"
+	"github.com/52dev/kratos-transport/broker"
+	"github.com/52dev/kratos-transport/tracing"
 )
 
 const (

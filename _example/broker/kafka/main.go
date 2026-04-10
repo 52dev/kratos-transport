@@ -8,10 +8,10 @@ import (
 	"os/signal"
 	"syscall"
 
+	"github.com/52dev/kratos-transport/broker"
+	"github.com/52dev/kratos-transport/broker/kafka"
+	api "github.com/52dev/kratos-transport/testing/api/manual"
 	"github.com/go-kratos/kratos/v2/log"
-	"github.com/tx7do/kratos-transport/broker"
-	"github.com/tx7do/kratos-transport/broker/kafka"
-	api "github.com/tx7do/kratos-transport/testing/api/manual"
 )
 
 const (

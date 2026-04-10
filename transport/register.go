@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/tx7do/kratos-transport/broker"
+	"github.com/52dev/kratos-transport/broker"
 )
 
 type SubscriberRegistrar interface {

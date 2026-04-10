@@ -1,4 +1,4 @@
-module github.com/tx7do/kratos-transport/tracing
+module github.com/52dev/kratos-transport/tracing
 
 go 1.24.0
 

@@ -6,8 +6,8 @@ import (
 	"go.opentelemetry.io/otel/propagation"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/tx7do/kratos-transport/broker"
-	"github.com/tx7do/kratos-transport/broker/rabbitmq"
+	"github.com/52dev/kratos-transport/broker"
+	"github.com/52dev/kratos-transport/broker/rabbitmq"
 )
 
 type ServerOption func(o *Server)

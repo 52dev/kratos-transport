@@ -16,7 +16,7 @@ import (
 	"google.golang.org/grpc/health"
 	"google.golang.org/grpc/health/grpc_health_v1"
 
-	"github.com/tx7do/kratos-transport/transport"
+	"github.com/52dev/kratos-transport/transport"
 )
 
 var (

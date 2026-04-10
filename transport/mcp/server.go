@@ -8,10 +8,10 @@ import (
 	"sync"
 	"sync/atomic"
 
+	"github.com/52dev/kratos-transport/transport/keepalive"
 	"github.com/go-kratos/kratos/v2/log"
 	kratosTransport "github.com/go-kratos/kratos/v2/transport"
 	"github.com/mark3labs/mcp-go/mcp"
-	"github.com/tx7do/kratos-transport/transport/keepalive"
 
 	"github.com/mark3labs/mcp-go/server"
 )

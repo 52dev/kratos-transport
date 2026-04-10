@@ -1,22 +1,22 @@
-module github.com/tx7do/kratos-transport/transport/websocket
+module github.com/52dev/kratos-transport/transport/websocket
 
 go 1.25.0
 
 replace (
-	github.com/tx7do/kratos-transport/broker => ../../broker
-	github.com/tx7do/kratos-transport/testing => ../../testing
-	github.com/tx7do/kratos-transport/tracing => ../../tracing
-	github.com/tx7do/kratos-transport/transport => ../
-	github.com/tx7do/kratos-transport/transport/keepalive => ../keepalive
+	github.com/52dev/kratos-transport/broker => ../../broker
+	github.com/52dev/kratos-transport/testing => ../../testing
+	github.com/52dev/kratos-transport/tracing => ../../tracing
+	github.com/52dev/kratos-transport/transport => ../
+	github.com/52dev/kratos-transport/transport/keepalive => ../keepalive
 )
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/gorilla/websocket v1.5.3
 	github.com/stretchr/testify v1.11.1
-	github.com/tx7do/go-utils/id v0.0.4
-	github.com/tx7do/kratos-transport/broker v1.3.2
-	github.com/tx7do/kratos-transport/transport v1.3.3
+	github.com/52dev/go-utils/id v1.0.0
+	github.com/52dev/kratos-transport/broker v1.0.0
+	github.com/52dev/kratos-transport/transport v1.0.0
 )
 
 require (
@@ -35,8 +35,8 @@ require (
 	github.com/rs/xid v1.6.0 // indirect
 	github.com/segmentio/ksuid v1.0.4 // indirect
 	github.com/sony/sonyflake v1.3.0 // indirect
-	github.com/tx7do/go-utils v1.1.35 // indirect
-	github.com/tx7do/kratos-transport/tracing v1.1.1 // indirect
+	github.com/52dev/go-utils v1.0.0 // indirect
+	github.com/52dev/kratos-transport/tracing v1.1.1 // indirect
 	go.mongodb.org/mongo-driver/v2 v2.5.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel v1.43.0 // indirect

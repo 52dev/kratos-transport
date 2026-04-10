@@ -3,7 +3,7 @@ package kcp
 import (
 	"sync"
 
-	"github.com/tx7do/go-utils/id"
+	"github.com/52dev/go-utils/id"
 	"github.com/xtaci/kcp-go/v5"
 )
 

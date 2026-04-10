@@ -9,10 +9,10 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/52dev/kratos-transport/broker"
 	"github.com/go-kratos/kratos/v2/encoding"
 	"github.com/quic-go/quic-go"
 	"github.com/quic-go/quic-go/http3"
-	"github.com/tx7do/kratos-transport/broker"
 )
 
 type ClientMessageHandler func(MessagePayload) error
