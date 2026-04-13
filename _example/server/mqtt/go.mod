@@ -31,7 +31,7 @@ require (
 	github.com/52dev/kratos-transport/broker/mqtt v1.3.3 // indirect
 	github.com/52dev/kratos-transport/tracing v1.0.0 // indirect
 	github.com/52dev/kratos-transport/transport v1.0.0 // indirect
-	github.com/52dev/kratos-transport/transport/keepalive v1.3.3 // indirect
+	github.com/52dev/kratos-transport/transport/keepalive v1.0.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel v1.42.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.42.0 // indirect

@@ -20,7 +20,7 @@ require (
 	github.com/52dev/kratos-transport/broker/nsq v1.3.2
 	github.com/52dev/kratos-transport/testing v1.1.1
 	github.com/52dev/kratos-transport/transport v1.0.0
-	github.com/52dev/kratos-transport/transport/keepalive v1.3.3
+	github.com/52dev/kratos-transport/transport/keepalive v1.0.0
 )
 
 require (
