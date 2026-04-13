@@ -11,14 +11,17 @@ replace (
 )
 
 require (
+	github.com/52dev/kratos-transport/transport/keepalive v1.0.0
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/hibiken/asynq v0.26.0
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/stretchr/testify v1.11.1
-	github.com/52dev/kratos-transport/transport/keepalive v1.3.4
 )
 
 require (
+	github.com/52dev/kratos-transport/broker v1.3.2 // indirect
+	github.com/52dev/kratos-transport/tracing v1.1.1 // indirect
+	github.com/52dev/kratos-transport/transport v1.3.3 // indirect
 	github.com/cenkalti/backoff/v5 v5.0.3 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
@@ -32,9 +35,6 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/redis/go-redis/v9 v9.18.0 // indirect
 	github.com/spf13/cast v1.10.0 // indirect
-	github.com/52dev/kratos-transport/broker v1.3.2 // indirect
-	github.com/52dev/kratos-transport/tracing v1.1.1 // indirect
-	github.com/52dev/kratos-transport/transport v1.3.3 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel v1.43.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.43.0 // indirect

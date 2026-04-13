@@ -12,15 +12,17 @@ replace (
 )
 
 require (
+	github.com/52dev/kratos-transport/testing v1.0.0
+	github.com/52dev/kratos-transport/transport v1.0.0
 	github.com/fasthttp/router v1.5.4
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/stretchr/testify v1.11.1
-	github.com/52dev/kratos-transport/testing v1.1.1
-	github.com/52dev/kratos-transport/transport v1.3.3
 	github.com/valyala/fasthttp v1.69.0
 )
 
 require (
+	github.com/52dev/kratos-transport/broker v1.3.2 // indirect
+	github.com/52dev/kratos-transport/tracing v1.1.1 // indirect
 	github.com/andybalholm/brotli v1.2.0 // indirect
 	github.com/cenkalti/backoff/v5 v5.0.3 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
@@ -36,8 +38,6 @@ require (
 	github.com/openzipkin/zipkin-go v0.4.3 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/savsgio/gotils v0.0.0-20250924091648-bce9a52d7761 // indirect
-	github.com/52dev/kratos-transport/broker v1.3.2 // indirect
-	github.com/52dev/kratos-transport/tracing v1.1.1 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel v1.39.0 // indirect
