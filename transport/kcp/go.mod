@@ -21,7 +21,7 @@ require (
 
 require (
 	github.com/52dev/go-utils v1.1.34 // indirect
-	github.com/52dev/kratos-transport/tracing v1.1.1 // indirect
+	github.com/52dev/kratos-transport/tracing v1.0.0 // indirect
 	github.com/bwmarrin/snowflake v0.3.0 // indirect
 	github.com/cenkalti/backoff/v5 v5.0.3 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
