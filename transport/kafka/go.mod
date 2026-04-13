@@ -12,11 +12,11 @@ replace (
 )
 
 require (
-	github.com/52dev/kratos-transport/broker v1.3.2
+	github.com/52dev/kratos-transport/broker v1.0.0
 	github.com/52dev/kratos-transport/broker/kafka v1.3.7
 	github.com/52dev/kratos-transport/testing v1.1.1
-	github.com/52dev/kratos-transport/tracing v1.1.1
-	github.com/52dev/kratos-transport/transport v1.3.3
+	github.com/52dev/kratos-transport/tracing v1.0.0
+	github.com/52dev/kratos-transport/transport v1.0.0
 	github.com/52dev/kratos-transport/transport/keepalive v1.3.3
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/segmentio/kafka-go v0.4.50

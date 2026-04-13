@@ -30,8 +30,8 @@ require (
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.27.6 // indirect
 	github.com/openzipkin/zipkin-go v0.4.3 // indirect
 	github.com/rabbitmq/amqp091-go v1.10.0 // indirect
-	github.com/52dev/kratos-transport/tracing v1.1.1 // indirect
-	github.com/52dev/kratos-transport/transport v1.3.3 // indirect
+	github.com/52dev/kratos-transport/tracing v1.0.0 // indirect
+	github.com/52dev/kratos-transport/transport v1.0.0 // indirect
 	github.com/52dev/kratos-transport/transport/keepalive v1.3.3 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel v1.39.0 // indirect

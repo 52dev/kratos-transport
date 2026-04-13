@@ -15,7 +15,7 @@ replace (
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/philippseith/signalr v0.8.0
-	github.com/52dev/kratos-transport/transport v1.3.3
+	github.com/52dev/kratos-transport/transport v1.0.0
 )
 
 require (
@@ -36,8 +36,8 @@ require (
 	github.com/quic-go/quic-go v0.59.0 // indirect
 	github.com/quic-go/webtransport-go v0.10.0 // indirect
 	github.com/teivah/onecontext v1.3.0 // indirect
-	github.com/52dev/kratos-transport/broker v1.3.2 // indirect
-	github.com/52dev/kratos-transport/tracing v1.1.1 // indirect
+	github.com/52dev/kratos-transport/broker v1.0.0 // indirect
+	github.com/52dev/kratos-transport/tracing v1.0.0 // indirect
 	github.com/vmihailenco/msgpack/v5 v5.4.1 // indirect
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect

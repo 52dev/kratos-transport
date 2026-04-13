@@ -33,7 +33,7 @@ require (
 	github.com/pierrec/lz4/v4 v4.1.25 // indirect
 	github.com/segmentio/kafka-go v0.4.50 // indirect
 	github.com/52dev/kratos-transport/broker/kafka v1.3.7 // indirect
-	github.com/52dev/kratos-transport/transport v1.3.3 // indirect
+	github.com/52dev/kratos-transport/transport v1.0.0 // indirect
 	github.com/52dev/kratos-transport/transport/keepalive v1.3.3 // indirect
 	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
 	github.com/xdg-go/scram v1.2.0 // indirect
