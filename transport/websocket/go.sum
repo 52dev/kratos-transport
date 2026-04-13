@@ -1,9 +1,7 @@
-github.com/52dev/go-utils v1.1.34/go.mod h1:Qlf/h2OT3v6FXCiFt/yRQtsWbja4XwuDFtBAgEcqyF8=
-github.com/52dev/go-utils v1.1.35 h1:gsHGT/CpObJYeKyczgZkg2x1kRIH9P4FXB0xKNWf7u0=
-github.com/52dev/go-utils v1.1.35/go.mod h1:NO6w8nfgAVHEH/aMmu7VNjX7DJQ8mnWHmtgp4qmyJ7Q=
-github.com/52dev/go-utils/id v0.0.4 h1:3p4WkW6p9PW+WwYobByxblgEgRsAu5uJT7btQWBcxxY=
-github.com/52dev/go-utils/id v0.0.4/go.mod h1:WfQozr3iaG+dgr0ckWUSwh6qLkzEW0xAh6PlR1MbQoE=
-github.com/52dev/go-utils/id v1.0.0/go.mod h1:7kEGndENxlRuTv1zEs2ksXc8AdPkjA444IxL0NSfJBo=
+github.com/52dev/go-utils v1.0.1 h1:uYOonORpXIhFpZNF6G9kPyawV+jYv/VPueaCxTC5GXg=
+github.com/52dev/go-utils v1.0.1/go.mod h1:Qlf/h2OT3v6FXCiFt/yRQtsWbja4XwuDFtBAgEcqyF8=
+github.com/52dev/go-utils/id v1.0.1 h1:aJsEMiw4zglbJ5xjwwsZyUVnaIQg9BWsfzff7SYHrcI=
+github.com/52dev/go-utils/id v1.0.1/go.mod h1:+5LQ5AD1EzQHwWkEqllFStmK2qFNiqnquXvGbJ+ebBc=
 github.com/bwmarrin/snowflake v0.3.0 h1:xm67bEhkKh6ij1790JB83OujPR5CzNe8QuQqAgISZN0=
 github.com/bwmarrin/snowflake v0.3.0/go.mod h1:NdZxfVWX+oR6y2K0o6qAYv6gIOP9rjG0/E9WsDpxqwE=
 github.com/cenkalti/backoff/v5 v5.0.3 h1:ZN+IMa753KfX5hd8vVaMixjnqRZ3y8CuJKRKj1xcsSM=

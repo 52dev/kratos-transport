@@ -12,8 +12,8 @@ replace (
 )
 
 require (
-	github.com/52dev/kratos-transport/testing v1.0.0
-	github.com/52dev/kratos-transport/transport v1.0.0
+	github.com/52dev/kratos-transport/testing v1.0.1
+	github.com/52dev/kratos-transport/transport v1.0.1
 	github.com/fasthttp/router v1.5.4
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/stretchr/testify v1.11.1
@@ -21,8 +21,8 @@ require (
 )
 
 require (
-	github.com/52dev/kratos-transport/broker v1.0.0 // indirect
-	github.com/52dev/kratos-transport/tracing v1.0.0 // indirect
+	github.com/52dev/kratos-transport/broker v1.0.1 // indirect
+	github.com/52dev/kratos-transport/tracing v1.0.1 // indirect
 	github.com/andybalholm/brotli v1.2.0 // indirect
 	github.com/cenkalti/backoff/v5 v5.0.3 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect

@@ -17,7 +17,7 @@ require (
 	github.com/googollee/go-socket.io v1.7.0
 	github.com/gorilla/handlers v1.5.2
 	github.com/gorilla/mux v1.8.1
-	github.com/52dev/kratos-transport/transport v1.0.0
+	github.com/52dev/kratos-transport/transport v1.0.1
 )
 
 require (
@@ -33,8 +33,8 @@ require (
 	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.27.6 // indirect
 	github.com/openzipkin/zipkin-go v0.4.3 // indirect
-	github.com/52dev/kratos-transport/broker v1.0.0 // indirect
-	github.com/52dev/kratos-transport/tracing v1.0.0 // indirect
+	github.com/52dev/kratos-transport/broker v1.0.1 // indirect
+	github.com/52dev/kratos-transport/tracing v1.0.1 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel v1.39.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.39.0 // indirect

@@ -11,9 +11,9 @@ replace (
 )
 
 require (
-	github.com/52dev/kratos-transport/broker v1.0.0
-	github.com/52dev/kratos-transport/testing v1.0.0
-	github.com/52dev/kratos-transport/tracing v1.0.0
+	github.com/52dev/kratos-transport/broker v1.0.1
+	github.com/52dev/kratos-transport/testing v1.0.1
+	github.com/52dev/kratos-transport/tracing v1.0.1
 	github.com/aliyunmq/mq-http-go-sdk v1.0.3
 	github.com/apache/rocketmq-client-go/v2 v2.1.2
 	github.com/apache/rocketmq-clients/golang/v5 v5.1.3

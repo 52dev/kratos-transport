@@ -9,9 +9,9 @@ replace (
 )
 
 require (
-	github.com/52dev/kratos-transport/broker v1.0.0
-	github.com/52dev/kratos-transport/testing v1.0.0
-	github.com/52dev/kratos-transport/tracing v1.0.0
+	github.com/52dev/kratos-transport/broker v1.0.1
+	github.com/52dev/kratos-transport/testing v1.0.1
+	github.com/52dev/kratos-transport/tracing v1.0.1
 	github.com/apache/pulsar-client-go v0.18.0
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/google/uuid v1.6.0

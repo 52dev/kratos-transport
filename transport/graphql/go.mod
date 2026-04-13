@@ -16,8 +16,8 @@ require (
 	github.com/99designs/gqlgen v0.17.86
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/gorilla/mux v1.8.1
-	github.com/52dev/kratos-transport/testing v1.1.1
-	github.com/52dev/kratos-transport/transport v1.0.0
+	github.com/52dev/kratos-transport/testing v1.0.1
+	github.com/52dev/kratos-transport/transport v1.0.1
 )
 
 require (
@@ -34,8 +34,8 @@ require (
 	github.com/hashicorp/golang-lru/v2 v2.0.7 // indirect
 	github.com/openzipkin/zipkin-go v0.4.3 // indirect
 	github.com/sosodev/duration v1.3.1 // indirect
-	github.com/52dev/kratos-transport/broker v1.0.0 // indirect
-	github.com/52dev/kratos-transport/tracing v1.0.0 // indirect
+	github.com/52dev/kratos-transport/broker v1.0.1 // indirect
+	github.com/52dev/kratos-transport/tracing v1.0.1 // indirect
 	github.com/vektah/gqlparser/v2 v2.5.31 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel v1.39.0 // indirect

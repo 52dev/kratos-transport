@@ -10,10 +10,10 @@ replace (
 	github.com/52dev/kratos-transport/tracing => ../tracing
 )
 
-require github.com/52dev/kratos-transport/broker v1.0.0
+require github.com/52dev/kratos-transport/broker v1.0.1
 
 require (
-	github.com/52dev/kratos-transport/tracing v1.0.0 // indirect
+	github.com/52dev/kratos-transport/tracing v1.0.1 // indirect
 	github.com/cenkalti/backoff/v5 v5.0.3 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/go-kratos/kratos/v2 v2.9.2 // indirect
