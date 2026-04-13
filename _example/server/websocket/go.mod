@@ -10,11 +10,14 @@ replace (
 )
 
 require (
+	github.com/52dev/kratos-transport/transport/websocket v1.0.0
 	github.com/go-kratos/kratos/v2 v2.9.2
-	github.com/52dev/kratos-transport/transport/websocket v1.3.2
 )
 
 require (
+	github.com/52dev/kratos-transport/broker v1.3.2 // indirect
+	github.com/52dev/kratos-transport/tracing v1.1.1 // indirect
+	github.com/52dev/kratos-transport/transport v1.0.0 // indirect
 	github.com/cenkalti/backoff/v5 v5.0.3 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
@@ -24,9 +27,6 @@ require (
 	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.28.0 // indirect
 	github.com/openzipkin/zipkin-go v0.4.3 // indirect
-	github.com/52dev/kratos-transport/broker v1.3.2 // indirect
-	github.com/52dev/kratos-transport/tracing v1.1.1 // indirect
-	github.com/52dev/kratos-transport/transport v1.3.3 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel v1.43.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.43.0 // indirect

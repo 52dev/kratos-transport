@@ -1,8 +1,6 @@
 module github.com/52dev/kratos-transport/transport/tcp
 
-go 1.24.0
-
-toolchain go1.24.3
+go 1.25.0
 
 replace (
 	github.com/52dev/kratos-transport/broker => ../../broker
@@ -13,13 +11,16 @@ replace (
 )
 
 require (
-	github.com/go-kratos/kratos/v2 v2.9.2
-	github.com/google/uuid v1.6.0
 	github.com/52dev/kratos-transport/broker v1.3.2
 	github.com/52dev/kratos-transport/transport v1.3.3
+	github.com/go-kratos/kratos/v2 v2.9.2
+	github.com/google/uuid v1.6.0
 )
 
 require (
+	github.com/52dev/go-utils v1.1.34 // indirect
+	github.com/52dev/go-utils/id v1.0.0 // indirect
+	github.com/52dev/kratos-transport/tracing v1.0.0 // indirect
 	github.com/bwmarrin/snowflake v0.3.0 // indirect
 	github.com/cenkalti/backoff/v5 v5.0.3 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
@@ -32,9 +33,6 @@ require (
 	github.com/rs/xid v1.6.0 // indirect
 	github.com/segmentio/ksuid v1.0.4 // indirect
 	github.com/sony/sonyflake v1.3.0 // indirect
-	github.com/52dev/go-utils v1.0.0 // indirect
-	github.com/52dev/go-utils/id v1.0.0 // indirect
-	github.com/52dev/kratos-transport/tracing v1.0.0 // indirect
 	go.mongodb.org/mongo-driver/v2 v2.5.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/otel v1.39.0 // indirect

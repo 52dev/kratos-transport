@@ -1,3 +1,7 @@
+github.com/52dev/go-utils v1.1.34/go.mod h1:Qlf/h2OT3v6FXCiFt/yRQtsWbja4XwuDFtBAgEcqyF8=
+github.com/52dev/go-utils/id v0.0.4 h1:3p4WkW6p9PW+WwYobByxblgEgRsAu5uJT7btQWBcxxY=
+github.com/52dev/go-utils/id v0.0.4/go.mod h1:WfQozr3iaG+dgr0ckWUSwh6qLkzEW0xAh6PlR1MbQoE=
+github.com/52dev/go-utils/id v1.0.0/go.mod h1:7kEGndENxlRuTv1zEs2ksXc8AdPkjA444IxL0NSfJBo=
 github.com/bwmarrin/snowflake v0.3.0 h1:xm67bEhkKh6ij1790JB83OujPR5CzNe8QuQqAgISZN0=
 github.com/bwmarrin/snowflake v0.3.0/go.mod h1:NdZxfVWX+oR6y2K0o6qAYv6gIOP9rjG0/E9WsDpxqwE=
 github.com/cenkalti/backoff/v5 v5.0.3 h1:ZN+IMa753KfX5hd8vVaMixjnqRZ3y8CuJKRKj1xcsSM=
@@ -45,8 +49,6 @@ github.com/sony/sonyflake v1.3.0 h1:tiB4Dlp0lnmKp/h6BLXA14P8Qi+LYS9+0QRpcrKHvg4=
 github.com/sony/sonyflake v1.3.0/go.mod h1:LORtCywH/cq10ZbyfhKrHYgAUGH7mOBa76enV9txy/Y=
 github.com/stretchr/testify v1.11.1 h1:7s2iGBzp5EwR7/aIZr8ao5+dra3wiQyKjjFuvgVKu7U=
 github.com/stretchr/testify v1.11.1/go.mod h1:wZwfW3scLgRK+23gO65QZefKpKQRnfz6sD981Nm4B6U=
-github.com/52dev/go-utils/id v0.0.4 h1:3p4WkW6p9PW+WwYobByxblgEgRsAu5uJT7btQWBcxxY=
-github.com/52dev/go-utils/id v0.0.4/go.mod h1:WfQozr3iaG+dgr0ckWUSwh6qLkzEW0xAh6PlR1MbQoE=
 go.mongodb.org/mongo-driver/v2 v2.5.0 h1:yXUhImUjjAInNcpTcAlPHiT7bIXhshCTL3jVBkF3xaE=
 go.mongodb.org/mongo-driver/v2 v2.5.0/go.mod h1:yOI9kBsufol30iFsl1slpdq1I0eHPzybRWdyYUs8K/0=
 go.opentelemetry.io/auto/sdk v1.2.1 h1:jXsnJ4Lmnqd11kwkBV2LgLoFMZKizbCi5fNZ/ipaZ64=

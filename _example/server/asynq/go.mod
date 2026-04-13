@@ -12,7 +12,7 @@ replace (
 require (
 	github.com/go-kratos/kratos/v2 v2.9.2
 	github.com/hibiken/asynq v0.26.0
-	github.com/52dev/kratos-transport/transport/asynq v1.3.2
+	github.com/52dev/kratos-transport/transport/asynq v1.0.0
 )
 
 require (
